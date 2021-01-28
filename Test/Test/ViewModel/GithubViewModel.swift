@@ -4,7 +4,7 @@ import RxCocoa
 import SwiftyJSON
 class GithubViewModel {
     
-    let history = BehaviorRelay<[String]>(value: [])
+    lazy var history = BehaviorRelay<[String]>(value: getHistory())
     
     let key = "someKey"
     let url = "https://api.github.com"
@@ -13,10 +13,7 @@ class GithubViewModel {
     
     let userDefault = UserDefaults.standard
     
-    init() {
-        history.accept(getHistory())
-    }
-    
+
     func githubApi() -> Observable<String> {
         return session.rx
             .json(url: URL(string: self.url)!)
