@@ -25,6 +25,10 @@ class GithubViewModel {
             }
     }
     
+    func clearCache()  {
+        UserDefaults.standard.setValue(nil, forKey: key)
+    }
+    
     func save(string:String) {
         if var array = userDefault.array(forKey: key) as? [String]{
             array.append(string: string, forKey: key)

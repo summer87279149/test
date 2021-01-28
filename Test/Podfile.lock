@@ -1,30 +1,40 @@
 PODS:
+  - RxBlocking (6.0.0):
+    - RxSwift (= 6.0.0)
   - RxCocoa (6.0.0):
     - RxRelay (= 6.0.0)
     - RxSwift (= 6.0.0)
   - RxRelay (6.0.0):
     - RxSwift (= 6.0.0)
   - RxSwift (6.0.0)
+  - RxTest (6.0.0):
+    - RxSwift (= 6.0.0)
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
+  - RxBlocking (~> 6.0.0)
   - RxCocoa (~> 6.0.0)
   - RxSwift (~> 6.0.0)
+  - RxTest (~> 6.0.0)
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   trunk:
+    - RxBlocking
     - RxCocoa
     - RxRelay
     - RxSwift
+    - RxTest
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  RxBlocking: c025b8c6fe08c5b18c039b5b11d41ec413f8a59e
   RxCocoa: 3f79328fafa3645b34600f37c31e64c73ae3a80e
   RxRelay: 8d593be109c06ea850df027351beba614b012ffb
   RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+  RxTest: ddef4052e63cb116f5b73510488c3113c37c62e5
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: d3fe22222e886214dea64bbe111bac32b5f0cfa9
+PODFILE CHECKSUM: 58fa33716a564f297095e4e5d9d7d8de7fba6224
 
 COCOAPODS: 1.9.3

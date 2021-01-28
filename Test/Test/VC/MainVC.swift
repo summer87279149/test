@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  Test
-//
-//  Created by 夏天 on 2021/1/28.
-//
-
 import UIKit
 import RxSwift
 import RxCocoa
@@ -15,7 +8,7 @@ class MainVC: UIViewController {
     let disposeBag = DisposeBag()
     
     let viewModel = GithubViewModel()
-    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
         getTheLatestRecord()

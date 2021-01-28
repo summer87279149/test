@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Test
-//
-//  Created by 夏天 on 2021/1/28.
-//
-
 import UIKit
 
 @main
