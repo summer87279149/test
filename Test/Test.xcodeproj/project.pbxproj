@@ -19,8 +19,6 @@
 		5C7B330B25C29E4C0054DB59 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B330925C29E4C0054DB59 /* MyTableViewCell.swift */; };
 		5C7B330C25C29E4C0054DB59 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7B330A25C29E4C0054DB59 /* MyTableViewCell.xib */; };
 		5CD01A2C25C2A87E00B0014E /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD01A2B25C2A87E00B0014E /* ProjectTests.swift */; };
-		5CD01A4225C2AA0200B0014E /* TestScheduler+MarbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD01A4025C2AA0200B0014E /* TestScheduler+MarbleTests.swift */; };
-		5CD01A4325C2AA0200B0014E /* NotImplementedStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD01A4125C2AA0200B0014E /* NotImplementedStubs.swift */; };
 		B96EAA39708E9655F70C6AE8 /* Pods_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B6F62C56EF3F142E9E5A51 /* Pods_ProjectTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +51,6 @@
 		5CD01A2925C2A87D00B0014E /* ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CD01A2B25C2A87E00B0014E /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
 		5CD01A2D25C2A87E00B0014E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CD01A4025C2AA0200B0014E /* TestScheduler+MarbleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestScheduler+MarbleTests.swift"; sourceTree = "<group>"; };
-		5CD01A4125C2AA0200B0014E /* NotImplementedStubs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementedStubs.swift; sourceTree = "<group>"; };
 		A8C808C71759D2FEE03DA1C9 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		CB1996A7D244B0C11E117690 /* Pods-ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-ProjectTests/Pods-ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3B6F62C56EF3F142E9E5A51 /* Pods_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,20 +150,10 @@
 		5CD01A2A25C2A87E00B0014E /* ProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				5CD01A3F25C2AA0200B0014E /* Mock */,
 				5CD01A2B25C2A87E00B0014E /* ProjectTests.swift */,
 				5CD01A2D25C2A87E00B0014E /* Info.plist */,
 			);
 			path = ProjectTests;
-			sourceTree = "<group>";
-		};
-		5CD01A3F25C2AA0200B0014E /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-				5CD01A4025C2AA0200B0014E /* TestScheduler+MarbleTests.swift */,
-				5CD01A4125C2AA0200B0014E /* NotImplementedStubs.swift */,
-			);
-			path = Mock;
 			sourceTree = "<group>";
 		};
 		EAC02CB06F4A35999FCEDA4A /* Pods */ = {
@@ -380,8 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CD01A4325C2AA0200B0014E /* NotImplementedStubs.swift in Sources */,
-				5CD01A4225C2AA0200B0014E /* TestScheduler+MarbleTests.swift in Sources */,
 				5CD01A2C25C2A87E00B0014E /* ProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
