@@ -14,7 +14,7 @@ class ProjectTests: XCTestCase {
     }
     
     override func tearDownWithError() throws {
-        
+        viewModel.clearCache()
     }
     
     func testGetTheLatestRecord(){
